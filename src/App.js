@@ -1,14 +1,14 @@
 import React from 'react'
-import Hero from './components/Hero'
-import Info from './components/Info'
-import Nav from './components/Navbar'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages'
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <Hero />
-      <Info />
+      <Routes>
+        <Route  path="/" element={ <Home /> } exact />
+      </Routes>
+      
     </>
   )
 }

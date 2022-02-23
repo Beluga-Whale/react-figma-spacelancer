@@ -44,10 +44,13 @@ export const NavLinks = styled(LinkS)`
     transition: .5s;
 
     &:hover {
-        border-bottom: 1px solid #ccc;
         padding-bottom: .5rem;
         transition: .5s;
     } 
+
+    &.active {
+        border-bottom: 3px solid #01bf71;
+    }
 `
 
 export const NavBtn = styled.div`
@@ -64,10 +67,13 @@ export const NavBtnLink = styled(LinkR)`
     background: #1E88E5;
     transition: .3s;
     color: #fff;
+    font-weight: bold;
 
     &:hover {
         background: #01bf71;
     }
+
+    
 `
 
 // export const HeroWork = styled.div``

@@ -21,23 +21,23 @@ const Navbar = () => {
                 </NavLogo>
                 <NavMenu>
                     <NavItems>
-                        <NavLinks to="/" spy={true} smooth={true} offset={30} duration={500} >Home</NavLinks>
+                        <NavLinks to="/" spy={true} smooth={true} offset={30} exact='true' duration={500} >Home</NavLinks>
                     </NavItems>
                     <NavItems>
-                        <NavLinks to="find"spy={true} smooth={true} offset={30} duration={500} >Find Work</NavLinks>
+                        <NavLinks to="find"spy={true} smooth={true} offset={-50} exact='true' duration={500} >Find Work</NavLinks>
                     </NavItems>
                     <NavItems>
-                        <NavLinks to="/" spy={true} smooth={true} offset={60} duration={500}>Find Freelancers</NavLinks>
+                        <NavLinks to="freelancers" spy={true} smooth={true} offset={30} exact='true' duration={500}>Find Freelancers</NavLinks>
                     </NavItems>
                     <NavItems>
-                        <NavLinks to="/" spy={true} smooth={true} offset={60} duration={500}>Log In</NavLinks>
+                        <NavLinks to="" spy={true} smooth={true} offset={30} exact='true' duration={500}>Log In</NavLinks>
                     </NavItems>
                     <NavItems>
-                        <NavLinks to="/">Sign Up</NavLinks>
+                        <NavLinks to="">Sign Up</NavLinks>
                     </NavItems>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/">Post a project</NavBtnLink>
+                    <NavBtnLink to="">Post a project</NavBtnLink>
                 </NavBtn>
             </NavContainer>
         </Nav>

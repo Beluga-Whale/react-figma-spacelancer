@@ -1,8 +1,19 @@
 import React from 'react'
+// import Category from '../components/Category'
+import FreeLance from '../components/FreeLancers'
+import Hero from '../components/Hero'
+import Info from '../components/Info'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <>
+            <Navbar />
+            <Hero />
+            <Info />
+            <FreeLance />
+            
+        </>
     )
 }
 
