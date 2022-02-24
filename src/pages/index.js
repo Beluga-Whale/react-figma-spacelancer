@@ -1,5 +1,5 @@
 import React from 'react'
-// import Category from '../components/Category'
+import CategorySec from '../components/Category'
 import FreeLance from '../components/FreeLancers'
 import Hero from '../components/Hero'
 import Info from '../components/Info'
@@ -11,8 +11,8 @@ const Home = () => {
             <Navbar />
             <Hero />
             <Info />
-            <FreeLance />
-            
+            <FreeLance /> 
+            <CategorySec />
         </>
     )
 }

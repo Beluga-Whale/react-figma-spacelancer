@@ -27,7 +27,7 @@ const Navbar = () => {
                         <NavLinks to="find"spy={true} smooth={true} offset={-50} exact='true' duration={500} >Find Work</NavLinks>
                     </NavItems>
                     <NavItems>
-                        <NavLinks to="freelancers" spy={true} smooth={true} offset={30} exact='true' duration={500}>Find Freelancers</NavLinks>
+                        <NavLinks to="cate" spy={true} smooth={true} offset={30} exact='true' duration={500}>Find Freelancers</NavLinks>
                     </NavItems>
                     <NavItems>
                         <NavLinks to="" spy={true} smooth={true} offset={30} exact='true' duration={500}>Log In</NavLinks>
